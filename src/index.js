@@ -59,6 +59,7 @@ const Presentation = () => (
                 </Heading>
                 <Heading color="#2b2b2b" margin="0px" fontSize="small">
                     *This ReactJS Presentation App is running inside a Docker container hosted on AWS Elastic Beanstalk
+                    *CI/CD is handled by Github Actions
                 </Heading>
             </FlexBox>
         </Slide>
