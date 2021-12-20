@@ -19,6 +19,8 @@ import CVP from './images/CVP.png';
 import INSTANCES from './images/INSTANCE.png';
 import EBS from './images/EBS.png';
 import EBSEFS from './images/EBSEFS.png';
+import CONTAINER from './images/CONTAINER.png';
+import CONTAINERVSVM from './images/CONTAINERVSVM.png';
 
 
 const theme = {
@@ -153,13 +155,22 @@ const Presentation = () => (
                 <img src={EBSEFS} alt="EBS vs. EFS" height="500px" style={{marginLeft:"10 "}}/>
             </FlexBox>
         </Slide>
-
-
-
-
-
-
-
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    What is a Container?
+                </Heading>
+                <img src={CONTAINER} alt="What is a Container?" height="500px" style={{marginLeft:"10 "}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    VM vs. Container
+                </Heading>
+                <img src={CONTAINERVSVM} alt="   VM vs. Container" height="400px" style={{paddingLeft: "100px", marginLeft:"50px", marginTop: "50px"}}/>
+            </FlexBox>
+        </Slide>
     </Deck>
 );
 
