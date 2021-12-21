@@ -25,6 +25,8 @@ import KECS from './images/KECS.png';
 import KTOP from './images/KTOP.png';
 import REFERENECES from './images/REFERENCES.png';
 
+import CARTOON from './images/cartoon.jpeg';
+
 
 const theme = {
     fonts: {
@@ -62,10 +64,6 @@ const Presentation = () => (
                 <Heading color="tertiary" margin="0px" fontSize="52px">
                     🌩{" "}<i>From the kernel to the cloud in ~26 minutes</i>{" "}🌩
                 </Heading>
-                <Heading color="#2b2b2b" margin="0px" fontSize="small">
-                    *This ReactJS Presentation App is running inside a Docker container hosted on AWS Elastic Beanstalk
-                    *CI/CD is handled by Github Actions
-                </Heading>
             </FlexBox>
         </Slide>
         <Slide>
@@ -81,7 +79,7 @@ const Presentation = () => (
                     🔵{" "}Cloud and AWS, Instances.
                 </Heading>
                 <Heading color="tertiary" margin="0px" fontSize="22px">
-                    🔵{" "}Elastic Beanstalk.
+                    🔵{" "}Elastic Block Storage.
                 </Heading>
                 <Heading color="tertiary" margin="0px" fontSize="22px">
                     🔵{" "}Docker, Containers and Kubernetes.
@@ -89,8 +87,7 @@ const Presentation = () => (
             </FlexBox>
             <FlexBox height="100%" flexDirection="column" backgroundColor="primary" alignItems="left">
                 <Heading color="tertiary" margin="0px" fontSize="18px">
-                    “If you adopt only one agile practice, let it be retrospectives. Everything else will follow.”
-                    —Woody Zuill
+                    <img src={CARTOON} alt="lols" height="200px" style={{marginLeft:"15px "}}/>
                 </Heading>
             </FlexBox>
         </Slide>
@@ -195,13 +192,18 @@ const Presentation = () => (
                 <Heading color="tertiary" margin="0px" fontSize="22px">
                     References
                 </Heading>
-                <img src={REFERENECES} alt="Reference links" height="400px" style={{paddingLeft: "100px", marginLeft:"50px", marginTop: "50px"}}/>
+                <img src={REFERENECES} alt="Reference links" height="600px" style={{paddingLeft: "100px", marginLeft:"50px", marginTop: "50px"}}/>
             </FlexBox>
         </Slide>
         <Slide>
             <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
                 <Heading color="tertiary" margin="0px" fontSize="42px">
-                    https://github.com/sbwx/rocker
+                    Thank you, open up for questions. <br/>
+                </Heading>
+                <Heading color="#2b2b2b" margin="0px" fontSize="small">
+                    This ReactJS Presentation App is running inside a Docker container hosted on AWS Elastic Beanstalk <br/>
+                    CI/CD is handled by Github Actions <br/>
+                    The code and slides for this presentation can be found here: https://github.com/sbwx/rocker <br/>
                 </Heading>
             </FlexBox>
         </Slide>
