@@ -21,6 +21,9 @@ import EBS from './images/EBS.png';
 import EBSEFS from './images/EBSEFS.png';
 import CONTAINER from './images/CONTAINER.png';
 import CONTAINERVSVM from './images/CONTAINERVSVM.png';
+import KECS from './images/KECS.png';
+import KTOP from './images/KTOP.png';
+import REFERENECES from './images/REFERENCES.png';
 
 
 const theme = {
@@ -169,6 +172,37 @@ const Presentation = () => (
                     VM vs. Container
                 </Heading>
                 <img src={CONTAINERVSVM} alt="   VM vs. Container" height="400px" style={{paddingLeft: "100px", marginLeft:"50px", marginTop: "50px"}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    Kubernetes and ECS
+                </Heading>
+                <img src={KECS} alt="Kubernetes and ECS" height="450px" style={{paddingLeft: "100px", marginLeft:"50px"}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    Topology
+                </Heading>
+                <img src={KTOP} alt="Kubernetes Topology" height="500px" style={{paddingLeft: "100px", marginLeft:"50px"}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    References
+                </Heading>
+                <img src={REFERENECES} alt="Reference links" height="400px" style={{paddingLeft: "100px", marginLeft:"50px", marginTop: "50px"}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="42px">
+                    https://github.com/sbwx/rocker
+                </Heading>
             </FlexBox>
         </Slide>
     </Deck>
