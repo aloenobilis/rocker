@@ -76,13 +76,13 @@ const Presentation = () => (
                     🔵{" "}What is a VM? With examples.
                 </Heading>
                 <Heading color="tertiary" margin="0px" fontSize="22px">
+                    🔵{" "}What are/is Containers, Kubernetes?
+                </Heading>
+                <Heading color="tertiary" margin="0px" fontSize="22px">
                     🔵{" "}Cloud and AWS, Instances.
                 </Heading>
                 <Heading color="tertiary" margin="0px" fontSize="22px">
                     🔵{" "}Elastic Block Storage.
-                </Heading>
-                <Heading color="tertiary" margin="0px" fontSize="22px">
-                    🔵{" "}Docker, Containers and Kubernetes.
                 </Heading>
             </FlexBox>
             <FlexBox height="100%" flexDirection="column" backgroundColor="primary" alignItems="left">
@@ -125,6 +125,38 @@ const Presentation = () => (
         </Slide>
         <Slide>
             <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    What is a Container?
+                </Heading>
+                <img src={CONTAINER} alt="What is a Container?" height="500px" style={{marginLeft:"10 "}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    VM vs. Container
+                </Heading>
+                <img src={CONTAINERVSVM} alt="VM vs. Container" height="400px" style={{paddingLeft: "100px", marginLeft:"50px", marginTop: "50px"}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    Kubernetes and ECS
+                </Heading>
+                <img src={KECS} alt="Kubernetes and ECS" height="450px" style={{paddingLeft: "100px", marginLeft:"50px"}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
+                <Heading color="tertiary" margin="0px" fontSize="22px">
+                    Topology
+                </Heading>
+                <img src={KTOP} alt="Kubernetes Topology" height="500px" style={{paddingLeft: "100px", marginLeft:"50px"}}/>
+            </FlexBox>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
                 <Heading color="tertiary" margin="0px" fontSize="42px">
                     Cloud vs. On-prem
                 </Heading>
@@ -153,38 +185,6 @@ const Presentation = () => (
                     EBS vs. EFS
                 </Heading>
                 <img src={EBSEFS} alt="EBS vs. EFS" height="500px" style={{marginLeft:"10 "}}/>
-            </FlexBox>
-        </Slide>
-        <Slide>
-            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
-                <Heading color="tertiary" margin="0px" fontSize="22px">
-                    What is a Container?
-                </Heading>
-                <img src={CONTAINER} alt="What is a Container?" height="500px" style={{marginLeft:"10 "}}/>
-            </FlexBox>
-        </Slide>
-        <Slide>
-            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
-                <Heading color="tertiary" margin="0px" fontSize="22px">
-                    VM vs. Container
-                </Heading>
-                <img src={CONTAINERVSVM} alt="   VM vs. Container" height="400px" style={{paddingLeft: "100px", marginLeft:"50px", marginTop: "50px"}}/>
-            </FlexBox>
-        </Slide>
-        <Slide>
-            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
-                <Heading color="tertiary" margin="0px" fontSize="22px">
-                    Kubernetes and ECS
-                </Heading>
-                <img src={KECS} alt="Kubernetes and ECS" height="450px" style={{paddingLeft: "100px", marginLeft:"50px"}}/>
-            </FlexBox>
-        </Slide>
-        <Slide>
-            <FlexBox height="100%" flexDirection="column" backgroundColor="primary">
-                <Heading color="tertiary" margin="0px" fontSize="22px">
-                    Topology
-                </Heading>
-                <img src={KTOP} alt="Kubernetes Topology" height="500px" style={{paddingLeft: "100px", marginLeft:"50px"}}/>
             </FlexBox>
         </Slide>
         <Slide>
