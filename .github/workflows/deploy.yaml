@@ -21,8 +21,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: react-docker
-          environment_name: Reactdocker-env
+          application_name: ROCKER-PRESENTATION
+          environment_name: Rockerpresentation-env
           existing_bucket_name: elasticbeanstalk-us-east-2-726335671895
           region: us-east-2
           version_label: ${{ github.sha }}
